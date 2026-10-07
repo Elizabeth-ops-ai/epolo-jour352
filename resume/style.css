@@ -32,6 +32,7 @@ BODY {
     font-weight: 600;
     margin-top: 20px;
     margin:0 auto;
+    text-align: center;
 }
 /*section titles*/
 .sectionheader {
@@ -74,6 +75,9 @@ BODY {
 
 .menu {
    margin: 0 auto;
+   text-align: center;
+   display:inline;
+   list-style-type:none;
 }
 
 #degrees {
