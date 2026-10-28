@@ -3,32 +3,66 @@
 
 <head>
     <title>Elizabeth Polo's Resume</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Special+Elite&display=swap" rel="stylesheet">
 </head>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 <body>
 <!-- I built this myself -->
 
-<div id="container">
-<div id="name">Elizabeth Polo</div>
+<img src="baddie-masthead.png" class="masthead" alt="Elizabeth Polo resume header">
 
-<div class="title">Student Journalist</div><br>
+<!-- Navbar start-->
+ <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark" >
+   <div class="container-fluid">
+     <a class="navbar-brand" href="#">Elizabeth Polo</a>
+     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+     </button>
+     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+         <li class="nav-item">
+           <a class="nav-link active" aria-current="page" href="#">Broadcast</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="#">Radio</a>
+         </li>
+        <li class="nav-item">
+           <a class="nav-link" href="#">Documentary</a>
+         </li>
+      
+       </ul>
+
+     </div>
+   </div>
+ </nav>
+
+<div id="container">
+
+<div class="btn-group" style="text-align:center; display:block; margin-top:10px;">
+  <a href="mailto:epolo@terpmail.umd.edu" class="btn btn-primary active" aria-current="page">Email Me</a>
+  <a href="https://www.linkedin.com/in/elizabeth-polo-7a7645264/" class="btn btn-primary">LinkedIn</a>
+  <a href="https://www.instagram.com/lizpolonews1/" class="btn btn-primary">Instagram</a>
+  <a href="https://github.com/Elizabeth-ops-ai" class="btn btn-primary">GitHub</a>
+</div>
+
+<div class="about-me"style="text-align:center; display:block; margin-top:10px;">
+    <h1> Hello There! <i class="bi bi-person-raised-hand"></i> </h1>
+
+</div>
 
 <!--
 <img src="liz.jpg.jpg" width="300px">
 -->
 
-<ul class="menu">
-<li><a href="mailto:epolo@terpmail.umd.edu">Email me</a></li>
-<li><a href="https://www.linkedin.com/in/elizabeth-polo-7a7645264/">LinkedIn</a></li>
-<li><a href="https://www.instagram.com/lizpolonews1/">Instagram</a></li> 
-<li><a href="https://github.com/Elizabeth-ops-ai">GitHub</a></li> 
-</ul>
 
-<p class="top"> I am a journalism student with a focus on broadcast, radio and documentary news. I work behind the scenes as a producer to showcase news through visual storytelling.</p>
+<p class="top"> My name's Elizabeth, and I'm a journalism student with a focus on broadcast, radio and documentary news. I work behind the scenes as a producer to showcase news through visual storytelling.</p>
 
-<div class="sectionheader">Experience</div>
+<div class="sectionheader"></i> Experience <i class="bi bi-camera-reels"></i></div>
 
 <div class="jobtitle">Producer Intern</div>
 <div class="organization">WPMT FOX43 News</div>
@@ -61,21 +95,67 @@
 <p class="description">Cover Catholic Masses and write features within the Archdiocese of Washington, such as special Masses celebrated by the cardinal and events at UMD’s Catholic Student Center. I take pictures to accompany my articles, capturing unique shots of the congregation and celebrants. I work openly and communicate regularly with the paper’s editor.</p>
 
 
-<div class="sectionheader">Education</div>
+<div class="sectionheader">Education <i class="bi bi-backpack3"></i></div>
 <ul id="degrees">
     <li>High school diploma, Hungingtown High School, 2023.</li>
     <li>Bachelor of Arts, Journalism, Minor in Creative Writing, University of Maryland (Anticipated), 2027.</li>
 </ul>
 
-<div class="sectionheader">Skills</div>
+<div class="sectionheader">Skills <i class="bi bi-lightbulb"></i></div>
 <ul id="do">
     <li>Creative Writing: Broad use of vocabulary and able to apply literary devices to make writing more interactive and engaging.</li>
     <li>Video Editing: Proficient in Adobe Premiere Pro for both video and audio components in visual storytelling.</li>
     <li>Video Producing: Decisive decision-making in video oversight.</li>
 </ul>
 
+<p>&nbsp;</p>
 
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" style="object-fit: cover; object-position: center; height: 400px;">
+      <a href="https://www.cathstan.org/search?search=Elizabeth+Polo" target="_blank" rel="noopener" class="d-block text-decoration-none">
+        <img src="standard.jpg" class="d-block w-100" alt="Catholic Standard">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Catholic Standard Articles</h5>
+          <p>Articles Covering the Archdiocese of Washington</p>
+        </div>
+      </a>
+    </div>
+    <div class="carousel-item" style="object-fit: cover; object-position: center; height: 400px;">
+      <a href="https://wmuc.umd.edu/news" target="_blank" rel="noopener" class="d-block text-decoration-none">
+        <img src="soundboard.jpg" class="d-block w-100" alt="WMUC Radio News">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>WMUC Radio News</h5>
+          <p>On-Air Radio Broadcasts</p>
+        </div>
+      </a>
+    </div>
+    <div class="carousel-item" style="object-fit: cover; object-position: center; height: 400px;">
+      <a href="https://www.youtube.com/watch?v=oizT0Eqdm8k" target="_blank" rel="noopener" class="d-block text-decoration-none">
+        <img src="better-muppet.jpg" class="d-block w-100" alt="Video Projects">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Video Projects</h5>
+          <p>Video Content Creation and Documentary Production</p>
+        </div>
+      </a>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
 
+<p>       &nbsp;</p>
 
 </div>
 </body>
