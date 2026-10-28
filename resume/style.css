@@ -7,6 +7,20 @@ BODY {
     font-weight: 400;
 }
 
+.masthead {
+    display: block;
+    width: 100%;
+    height: 220px;          /* average masthead height; try 180-300px */
+    object-fit: cover;      /* crops to fit instead of stretching */
+    object-position: center;
+}
+
+@media (max-width: 600px) {
+    .masthead {
+        height: 120px;      /* shorter on phones */
+    }
+}
+
 #container {
     width: 100%;
     max-width: 1200px;
@@ -44,7 +58,7 @@ BODY {
     margin-bottom: 10px;
     margin-right:0;
     margin-left:0;
-    width: 70%;
+    width: 100%;
     min-width: 300px;
 
 }
